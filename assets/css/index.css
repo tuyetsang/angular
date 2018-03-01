@@ -1,0 +1,103 @@
+body {
+    padding: 50px;
+    font-family: sans-serif;
+    /* background-color: #9792c74d !important; */
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+  h1{
+  padding-right:100px !important;
+  }
+  .header .inputAdd {
+    padding: 10px; 
+    font-size: 16px;
+    border-radius: 2px solid #FFF;
+    margin-left: 20px;
+    width: 300px;
+  }
+  .header .btnAdd{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background: #8AC007;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px;
+    margin-left:20px;
+  }
+  
+  /* .theList {
+    list-style: none;
+    margin-left: 50px;
+    width: 800px;
+    height: 2000px;
+    padding: 10px;
+    margin-left: -80px;
+    margin-top: 10px;
+  }
+  
+  .listRow{
+    background-color: #a3bcd2;
+    padding: 20px;
+    margin-top: 20px;
+    padding-left:15px;
+    border-radius: 5px;
+    width: 770px;
+    word-wrap: break-word;
+  }
+  
+  .listRowDone{
+    background-color:#b4acbfc2;
+    padding: 20px;
+    margin-top: 20px;
+    padding-left:15px;
+    border-radius: 5px;
+    width: 770px;
+    word-wrap: break-word;
+  }
+  
+  .newItem {
+      width: 80%;
+      display: inline-block;
+      color: #1b0606;
+      font-size: 16px;
+      font-weight: bold;
+  }
+  
+  .doneItem {
+      width: 80%;
+      display: inline-block;
+      border:0px solid #b4acbfc2;
+      color: #422828;
+      font-size: 16px;
+      background:#c0b8ccc2;
+      text-decoration: line-through;
+  }
+  .viewdate{
+    font-size: 12px;
+    color: #af0d7c;
+  }
+  .hidedate{
+    font-size: 12px;
+    color: #422828;
+  }
+  .formModal{
+    background-color: #a3bcd2 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:-20px;
+    margin-right:-20px;
+    margin-top:-20px;
+    margin-bottom:-20px;
+  }
+  .labelModal{
+    font-size: 20px;
+    font-weight: inherit;
+    color: #1b0606;
+    padding-left: 20px;
+  }
+   */

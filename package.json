@@ -1,0 +1,14 @@
+{
+  "name": "Demo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "eslint": "^4.6.1"
+  },
+  "devDependencies": {
+    "requirejs": "^2.3.5"
+  },
+  "scripts": {
+    "format": "eslint -f app"
+  }
+}

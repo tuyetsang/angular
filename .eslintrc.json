@@ -1,0 +1,146 @@
+/*
+* (C) Copyright NTT 2017 All rights reserved.
+*
+* This software is furnished under a contract and use, duplication, disclosure
+* and all other uses are restricted to the rights specified in the written
+* contract and memorandum between the contractor and NTT.
+*/
+
+{
+    "env": {
+        "amd": true,
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    // "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "impliedStrict": true
+        }
+    },
+    "rules": {
+        // Capitalization of the first letter of a comment
+        "capitalized-comments": ["error"],
+        // Require Camelcase
+        "camelcase": ["error", {
+            "properties": "never"
+        }],
+        "comma-dangle": "off",
+        // Enforce consistent brace style for all control statements
+        "curly": 0,
+        // Require === and !== always
+        "eqeqeq": "error",
+        // Require or disallow newline at the end of files
+        "eol-last": 0,
+        // Enforce the consistent use of either function declarations or expressions
+        "func-style": ["error", "expression"],
+        // Disallows mixed spaces and tabs for indentation.
+        "no-mixed-spaces-and-tabs": 2,
+        // Enforce consistent indentation
+        "indent": ["error", 4, {
+            "VariableDeclarator": {
+                "var": 2,
+                "let": 2,
+                "const": 3
+            },
+            "SwitchCase": 1
+        }],
+        // Enforce consistent spacing between keys and values in object literal properties
+        "key-spacing": ["error", {
+            "beforeColon": false,
+            "mode": "strict"
+        }],
+        // LF (unix) , CRLF (windows)
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        // Position of line comments
+        "line-comment-position": ["error", {
+            "position": "above"
+        }],
+        "lines-around-comment": ["warn", {
+            "beforeBlockComment": true,
+            "beforeLineComment": false
+        }],
+        // Allow nested callbacks
+        "max-nested-callbacks": "off",
+        // 
+        "max-len": "off",
+        // Require or disallow an empty line after variable declarations 
+        "newline-after-var": ["warn", "always"],
+        // Require an empty line before return statements
+        "newline-before-return": 2,
+        // Allow starting with a uppercase letter
+        // ex: express.Router()
+        "new-cap": ["warn", {
+            "newIsCap": true,
+            "capIsNew": false
+        }],
+        // Allow unused arguments
+        "no-unused-vars": ["warn", {
+            "vars": "all",
+            "args": "none"
+        }],
+        // Disallow inline comments after code
+        "no-inline-comments": "error",
+        // Empty block statements
+        "no-empty": "error",
+        // Disallow duplicate keys in object
+        "no-dupe-keys": "error",
+        // Disallow duplicate arguments in function definitions
+        "no-dupe-args": "error",
+        // Disallow sparse arrays
+        "no-sparse-arrays": "error",
+        // Disallow negated conditions
+        "no-negated-condition": "off",
+        // Disallow else blocks after return statements in if statements
+        "no-else-return": "off",
+        // Disallow unnecessary escape usage
+        "no-useless-escape": "off",
+        // Linebreak style for operators
+        "operator-linebreak": ["error", "after"],
+        // Use single ('') or double ("")
+        "quotes": ["off", "single"],
+        // Require JSDoc comments
+        "require-jsdoc": ["error", {
+            "require": {
+                "FunctionDeclaration": true,
+                "MethodDefinition": true,
+                "ClassDeclaration": true,
+                "ArrowFunctionExpression": true
+            }
+        }],
+        // Require or disallow semicolons instead of ASI
+        "semi": ["error", "always"],
+        // Whitespace (space or tab) beginning a comment
+        "spaced-comment": ["error", "always"],
+        // Require strict mode
+        "strict": ["warn", "global"],
+        // Valid JSdoc
+        "valid-jsdoc": ["error", {
+            "requireReturn": true,
+            "requireReturnType": true,
+            "requireParamDescription": true,
+            "requireReturnDescription": false,
+            "prefer": {
+                "arg": "param",
+                "argument": "param",
+                "class": "constructor",
+                "return": "return",
+                "virtual": "abstract"
+            },
+            "preferType": {
+                "Boolean": "Boolean",
+                "Number": "Number",
+                "object": "Object",
+                "String": "String",
+                "Void": "Void"
+            }
+        }]
+    }
+}

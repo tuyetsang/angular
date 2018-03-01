@@ -1,0 +1,25 @@
+<form name="form" ng-submit="btnExeClick()" vl-form>
+    <div class="modal-header">
+        <button type="button" class="close" aria-label="Close" data-dismiss="modal" ng-click="btnCancelClick(); $event.preventDefault();">&times;</button>
+        <h4 class="modal-title">Title</h4>
+    </div>
+    <div class="modal-body">
+        <div class="row wrapTitleBodyModal">
+            <span>Content</span>
+        </div>
+        <div class="row wrapEntityModal">
+            <div class="col-md-12">
+                <span>input field: </span>
+            </div>
+            <div class="col-md-12">
+                <input ng-trim="false" type="text" class="form-control" placeholder="" vl-input required ng-model="newAppName" maxlength="128">
+            </div>
+        </div>
+        <br/>
+        <br/>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btnModalExecute btn-green" type="submit">Edit</button>
+        <button class="btn btnModalCancel btn-green" ng-click="btnCancelClick(); $event.preventDefault();">Cancel</button>
+    </div>
+</form>
